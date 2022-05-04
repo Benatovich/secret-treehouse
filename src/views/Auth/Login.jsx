@@ -59,7 +59,8 @@ export default function Login() {
           id="password"
           name="password"
           type="password"
-          value=''
+          value={formState.password}
+          onChange={handleFormChange}
         />
         <button type="submit" aria-label="Sign In">
           Sign in
