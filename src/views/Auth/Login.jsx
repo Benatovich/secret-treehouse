@@ -48,7 +48,8 @@ export default function Login() {
           id="email"
           name="email"
           type="email"
-          value=''
+          value={formState.email}
+          onChange={handleFormChange}
         />{' '}
         <label
           for='password'
